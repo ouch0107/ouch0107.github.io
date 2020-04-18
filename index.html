@@ -1,129 +1,228 @@
-<div class="col-sm-2" data-enable-grammarly="false"><img data-no-retina="true"
-        src="https://images.cakeresume.com/XZzyQ/ouch0107/5e599361-e234-4208-9c67-a1217d7df693.png"
-        alt="Hrhm7tljzlklwxu1yquc" loading="" style="border-radius: 61px;" data-uploader-id="0" data-state="empty">
-</div>
-<div class="col-sm-10" data-enable-grammarly="false">
-    <h1><b>徐志忠</b></h1>
-    <p>我是Junior Full Stack Engineer，有使用ASP.NET MVC、Entity
-        Framework及Vue.js開發的經驗，亦接觸過Python、Django及React.js，喜歡學習新知識，並致力於解決客戶需求。</p>
-    <p><br></p>
-    <p>Software Engineer<br>0921-951-871<br><a href="mailto:ouch0107@gmail.com" target="_blank"
-            rel="nofollow noopener noreferrer" data-enable-grammarly="false">ouch0107@gmail.com</a></p>
-</div>
-<div class="col-xs-12">
-    <div class="row">
-        <div class="col-xs-12" data-enable-grammarly="false">
-            <h1><b>工作經歷</b></h1>
-        </div>
-    </div>
-    <div class="row" title="" data-original-title="" aria-describedby="tooltip972726">
-        <div class="col-xs-2 col-sm-1 item-bullet" data-enable-grammarly="false"></div>
-        <div class="col-xs-10 col-sm-11 item" data-enable-grammarly="false">
-            <h3>五甫科技, 軟體工程師, Sep 2019 ~ Feb 2020</h3>
-            <div><i class="fas"></i>&nbsp;<b>C#, ASP.NET MVC, Entity framework, Javascript, Vue.js, MSSQL,
-                    Azure</b><br></div>
-            <p>負責開發、維護及測試。使用ASP.NET MVC及Vue.js開發前後端，並部署於Azure，為公司開發一個訂單系統，且負責控管測試及上版時程。</p>
-        </div>
-    </div>
-</div>
-<div class="col-sm-12">
-    <div class="row">
-        <div class="col-sm-12" data-enable-grammarly="false">
-            <h1><b>技能</b></h1>
-        </div>
-    </div>
-    <div class="row" title="" data-original-title="" aria-describedby="tooltip267628">
-        <div class="col-sm-4 item" data-enable-grammarly="false">
-            <hr>
-            <h1>Front-end</h1>
-            <p></p>
-            <p></p>
-            <ul>
-                <li>Intermediate</li>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Vue.js</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-                <li>Beginner</li>
-                <ul>
-                    <li>React.js</li>
-                </ul>
-            </ul>
-            <p></p>
-            <p></p>
-        </div>
-        <div class="col-sm-4 item" data-enable-grammarly="false">
-            <hr>
-            <h1>Back-end</h1>
-            <p></p>
-            <ul>
-                <li>Intermediate</li>
-                <ul>
-                    <li>C#</li>
-                    <li>ASP.NET MVC</li>
-                    <li>MSSQL</li>
-                </ul>
-                <li>Beginner</li>
-                <ul>
-                    <li>ASP.NET Core</li>
-                    <li>Python</li>
-                    <li>Django</li>
-                    <li>Flask</li>
-                </ul>
-            </ul>
-            <p></p>
-        </div>
-        <div class="col-sm-4 item" data-enable-grammarly="false">
-            <hr>
-            <h1>Others</h1>
-            <div>
-                <ul>
-                    <li>Git, Java, C, C++, Visual Basic, MATLAB, Verilog</li>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/6bc99bb13a.js" crossorigin="anonymous"></script>
+    
+    <!-- Custom CSS -->
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app" class="container-fluid p-0">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-md-none">Dennis</span>
+                <span class="d-none d-md-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.png" alt="">
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about" v-on:click="closeCollapse()">關於</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience" v-on:click="closeCollapse()">工作經歷</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills" v-on:click="closeCollapse()">技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education" v-on:click="closeCollapse()">學歷</a>
+                    </li>
                 </ul>
             </div>
-            <div>
-                <h1>IDE &amp; Tool</h1>
-                <div>
-                    <ul>
-                        <li>Visual Studio</li>
-                        <li>Visual Studio Code</li>
-                        <li>Jupyter notebook</li>
-                    </ul>
+        </nav>
+
+        <div class="container">
+            <section id="about" class="resume-section p-3 p-md-5 d-flex align-items-center">
+                <div class="w-100">
+                    <h1 class="mb-0">徐志忠</h1>
+                    <div class="mb-5">
+                        <p>Software Engineer · 0921-951-871 · <a href="mailto:ouch0107@gmail.com">ouch0107@gmail.com</a>
+                        </p>
+                    </div>
+                    <p class="mb-5">我是Junior Full Stack Engineer，有使用ASP.NET MVC、Entity
+                        Framework及Vue.js開發的經驗，亦接觸過Python、Django及React.js，喜歡學習新知識，並致力於解決客戶需求。</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100001513880473">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://github.com/ouch0107">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/%E5%BF%97%E5%BF%A0-%E5%BE%90-77b030ba/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
                 </div>
-                <h1>Language</h1>
-            </div>
-            <div>
-                <ul>
-                    <li>English (moderate)</li>
-                </ul>
-            </div>
+            </section>
+            <section id="experience" class="resume-section p-3 p-md-5 d-flex justify-content-center">
+                <div class="w-100">
+                    <h1 class="mb-5">工作經歷</h1>
+                    <div class="resume-item">
+                        <h3>五甫科技, 軟體工程師, Sep 2019 ~ Feb 2020</h3>
+                        <div><i class="fas fa-laptop"></i>&nbsp;<b>C#, ASP.NET MVC, Entity framework, Javascript,
+                                Vue.js, MSSQL,
+                                Azure</b><br></div>
+                        <p>負責開發、維護及測試。使用ASP.NET MVC及Vue.js開發前後端，並部署於Azure，為公司開發一個訂單系統，且負責控管測試及上版時程。</p>
+                    </div>
+                </div>
+            </section>
+            <section id="skills" class="resume-section p-3 p-md-5 d-flex justify-content-center">
+                <div class="w-100">
+                    <h1 class="mb-5">技能</h1>
+                    <div class="resume-item row">
+                        <div class="col-sm-4 item">
+                            <hr>
+                            <h1>Front-end</h1>
+                            <p></p>
+                            <p></p>
+                            <ul>
+                                <li>Intermediate</li>
+                                <ul>
+                                    <li>Javascript</li>
+                                    <li>Vue.js</li>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                </ul>
+                                <li>Beginner</li>
+                                <ul>
+                                    <li>React.js</li>
+                                </ul>
+                            </ul>
+                            <p></p>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-4 item">
+                            <hr>
+                            <h1>Back-end</h1>
+                            <p></p>
+                            <ul>
+                                <li>Intermediate</li>
+                                <ul>
+                                    <li>C#</li>
+                                    <li>ASP.NET MVC</li>
+                                    <li>MSSQL</li>
+                                </ul>
+                                <li>Beginner</li>
+                                <ul>
+                                    <li>ASP.NET Core</li>
+                                    <li>Python</li>
+                                    <li>Django</li>
+                                    <li>Flask</li>
+                                </ul>
+                            </ul>
+                            <p></p>
+                        </div>
+                        <div class="col-sm-4 item">
+                            <hr>
+                            <h1>Others</h1>
+                            <div>
+                                <ul>
+                                    <li>Git, Java, C, C++, Visual Basic, MATLAB, Verilog</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h1>IDE &amp; Tool</h1>
+                                <div>
+                                    <ul>
+                                        <li>Visual Studio</li>
+                                        <li>Visual Studio Code</li>
+                                        <li>Jupyter notebook</li>
+                                    </ul>
+                                </div>
+                                <h1>Language</h1>
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>English (moderate)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="education" class="resume-section p-3 p-md-5 d-flex justify-content-center">
+                <div class="w-100">
+                    <h1 class="mb-5">學歷</h1>
+                    <div class="resume-item">
+                        <h3><b>台灣大學, 碩士學位, 電信工程研究所(肄業), 2015 ~ 2018</b></h3>
+                        <div><b><i class="fas fa-book"></i>&nbsp; 論文研究</b>&nbsp;<i>金屬物體二維準單向近場毫米波影像校準方法及量測程式</i></div>
+                        <div><i class="fas fa-laptop"></i>&nbsp;<b>MATLAB, Visual Basic, FEKO, HFSS</b><br></div>
+                        <div>研究毫米波影像校準方法，消除天線場形及空屋響應的影響，並撰寫系統程式以達成自動化量測。</div>
+                    </div>
+                    <div class="resume-item">
+                        <h3><b>成功大學, 工學學士（BEng）, 工程科學系, 2010 ~ 2015</b></h3>
+                        <div><b><i class="fas fa-book"></i>&nbsp; 專題研究&nbsp;</b><i>光體積量測法結合SOC量測心律及血氧飽和度</i><b><br></b>
+                        </div>
+                        <div><i><i class="fas fa-laptop"></i>&nbsp;</i><b>Java, Android</b><br></div>
+                        <div>實作具紅外線感測器之電路，量測血液中血氧飽和度及心律，結合FPGA撰寫程式計算及介面顯示量測數據。</div>
+                    </div>
+                </div>
+            </section>
         </div>
-    </div>
-</div>
-<div class="col-xs-12">
-    <div class="row">
-        <div class="col-xs-12" data-enable-grammarly="false">
-            <h1><b>學歷</b></h1>
-        </div>
-    </div>
-    <div class="row" title="" data-original-title="" aria-describedby="tooltip410526">
-        <div class="col-xs-2 col-sm-1 item-bullet" data-enable-grammarly="false"></div>
-        <div class="col-xs-10 col-sm-11 item" data-enable-grammarly="false">
-            <h3><b>台灣大學, 碩士學位, 電信工程研究所(肄業), 2015 ~ 2018</b></h3>
-            <div><b><i class="fas"></i>&nbsp; 論文研究</b>&nbsp;<i>金屬物體二維準單向近場毫米波影像校準方法及量測程式</i></div>
-            <div><i class="fas"></i>&nbsp;<b>MATLAB, Visual Basic, FEKO, HFSS</b><br></div>
-            <div>研究毫米波影像校準方法，消除天線場形及空屋響應的影響，並撰寫系統程式以達成自動化量測。</div>
-        </div>
-    </div>
-    <div class="row" title="" data-original-title="">
-        <div class="col-xs-2 col-sm-1 item-bullet" data-enable-grammarly="false"></div>
-        <div class="col-xs-10 col-sm-11 item" data-enable-grammarly="false">
-            <h3><b>成功大學, 工學學士（BEng）, 工程科學系, 2010 ~ 2015</b></h3>
-            <div><b><i class="fas"></i>&nbsp; 專題研究&nbsp;</b><i>光體積量測法結合SOC量測心律及血氧飽和度</i><b><br></b></div>
-            <div><i><i class="fas"></i>&nbsp;</i><b>Java, Android</b><br></div>
-            <div>實作具紅外線感測器之電路，量測血液中血氧飽和度及心律，結合FPGA撰寫程式計算及介面顯示量測數據。</div>
-        </div>
-    </div>
-</div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+        
+        <!-- production version, optimized for size and speed -->
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        
+        <!-- jQuery Easing Plugin Javascript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+        <script>
+            var app = new Vue({
+                el: "#app",
+                data: {
+                    isEnglish: false,
+                },
+                methods: {
+                    closeCollapse() {
+                        $('.navbar-collapse').collapse('hide');
+
+                        // Smooth scroll
+                        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
+                            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//,
+                                '') && location.hostname == this.hostname) {
+                                var target = $(this.hash);
+                                target = target.length ? target : $('[name=' + this.hash.slice(1) +
+                                ']');
+                                if (target.length) {
+                                    $('html, body').animate({
+                                        scrollTop: (target.offset().top)
+                                    }, 1000, "easeInOutExpo");
+                                    return false;
+                                }
+                            }
+                        });
+                    }
+                }
+            });
+        </script>
+</body>
+
+</html>

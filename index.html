@@ -15,12 +15,14 @@
     
     <!-- Custom CSS -->
     <link href="index.css" rel="stylesheet">
+
+    
 </head>
 
 <body>
     <div id="app" class="container-fluid p-0">
         <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" v-on:click="scrollTo('#page-top')">
                 <span class="d-block d-md-none">Dennis</span>
                 <span class="d-none d-md-block">
                     <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="profile.png" alt="">
@@ -33,22 +35,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about" v-on:click="closeCollapse()">關於</a>
+                        <a class="nav-link js-scroll-trigger" href="#about" v-on:click="scrollTo('#about')">關於</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#experience" v-on:click="closeCollapse()">工作經歷</a>
+                        <a class="nav-link js-scroll-trigger" href="#experience" v-on:click="scrollTo('#experience')">工作經歷</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#skills" v-on:click="closeCollapse()">技能</a>
+                        <a class="nav-link js-scroll-trigger" href="#skills" v-on:click="scrollTo('#skills')">技能</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#education" v-on:click="closeCollapse()">學歷</a>
+                        <a class="nav-link js-scroll-trigger" href="#education" v-on:click="scrollTo('#education')">學歷</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <div class="container">
+        <div class="container" id="page-top">
             <section id="about" class="resume-section p-3 p-md-5 d-flex align-items-center">
                 <div class="w-100">
                     <h1 class="mb-0">徐志忠</h1>
@@ -201,28 +203,22 @@
                     isEnglish: false,
                 },
                 methods: {
-                    closeCollapse() {
+                    scrollTo(id) {
                         $('.navbar-collapse').collapse('hide');
 
-                        // Smooth scroll
-                        $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
-                            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//,
-                                '') && location.hostname == this.hostname) {
-                                var target = $(this.hash);
-                                target = target.length ? target : $('[name=' + this.hash.slice(1) +
-                                ']');
-                                if (target.length) {
-                                    $('html, body').animate({
-                                        scrollTop: (target.offset().top)
-                                    }, 1000, "easeInOutExpo");
-                                    return false;
-                                }
-                            }
-                        });
+                        // Smooth scroll                        
+                        var target = $(id);                        
+                        if (target.length) {
+                            $('html, body').animate({
+                                scrollTop: (target.offset().top)
+                            }, 1000, "easeInOutExpo");
+                            return false;
+                        }        
                     }
                 }
             });
         </script>
+        
 </body>
 
 </html>

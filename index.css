@@ -1,7 +1,7 @@
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    color: #868e96;
+    color: #212F3C;
 }
 
 @media (min-width: 768px) {
@@ -41,7 +41,7 @@ body {
 
     #sideNav .navbar-brand .img-profile {
         max-width: 10rem;
-        max-height: 10rem;
+        max-height: 13rem;
         border: 0.5rem solid rgba(255, 255, 255, 0.2);
     }
 

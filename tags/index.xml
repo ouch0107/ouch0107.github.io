@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Dennis&#39;s Blog</title>
-    <link>https://hugo-toha.github.io/tags/</link>
+    <link>https://ouch0107.github.io/tags/</link>
     <description>Recent content in Tags on Dennis&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hugo-toha.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ouch0107.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

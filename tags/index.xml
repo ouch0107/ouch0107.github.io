@@ -1,10 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Dennis&#39;s Blog</title>
-    <link>https://ouch0107.github.io/tags/</link>
-    <description>Recent content in Tags on Dennis&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ouch0107.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Tag - Dennis&#39; Blog</title>
+        <link>https://ouch0107.github.io/tags/</link>
+        <description>Tags - Tag - Dennis&#39; Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>ouch0107@gmail.com (Dennis)</managingEditor>
+            <webMaster>ouch0107@gmail.com (Dennis)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</lastBuildDate><atom:link href="https://ouch0107.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>configuration</title>
+    <link>https://ouch0107.github.io/tags/configuration/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/configuration/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>installation</title>
+    <link>https://ouch0107.github.io/tags/installation/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/installation/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>content</title>
+    <link>https://ouch0107.github.io/tags/content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/content/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Markdown</title>
+    <link>https://ouch0107.github.io/tags/markdown/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>shortcodes</title>
+    <link>https://ouch0107.github.io/tags/shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/shortcodes/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>HTML</title>
+    <link>https://ouch0107.github.io/tags/html/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/html/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>emoji</title>
+    <link>https://ouch0107.github.io/tags/emoji/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>Dennis</author>
+    <guid>https://ouch0107.github.io/tags/emoji/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
